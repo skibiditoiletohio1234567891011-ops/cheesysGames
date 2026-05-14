@@ -3,6 +3,7 @@
  * Curated unblocked games collection.
  */
 import './index.css';
+import gamesData from './data/games.json';
 
 async function init() {
   const gamesContainer = document.getElementById('games-grid');
@@ -18,17 +19,9 @@ async function init() {
   const fullscreenBtn = document.getElementById('fullscreen-game');
   const resultsCount = document.getElementById('results-count');
 
-  let games = [];
+  let games = gamesData;
   let currentCategory = 'All';
   let searchTerm = '';
-
-  try {
-    const response = await fetch('./src/data/games.json');
-    games = await response.json();
-  } catch (err) {
-    console.error('Failed to load games:', err);
-    return;
-  }
 
   const categories = ['All', ...new Set(games.map(g => g.category))];
 
