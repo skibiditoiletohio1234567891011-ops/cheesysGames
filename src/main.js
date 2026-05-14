@@ -2,6 +2,7 @@
  * Nexus Arcade - Vanilla JS Version
  * Curated unblocked games collection.
  */
+import './index.css';
 
 async function init() {
   const gamesContainer = document.getElementById('games-grid');
