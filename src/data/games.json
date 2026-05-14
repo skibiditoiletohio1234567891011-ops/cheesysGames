@@ -1,0 +1,50 @@
+[
+  {
+    "id": "2048",
+    "title": "2048",
+    "description": "Join the numbers and get to the 2048 tile!",
+    "url": "https://play2048.co/",
+    "category": "Puzzle",
+    "thumbnail": "https://images.unsplash.com/photo-1549465220-1d8c9d9c4701?w=400&h=250&fit=crop"
+  },
+  {
+    "id": "snake",
+    "title": "Retro Snake",
+    "description": "Classic arcade snake game. Eat the apples and grow longer.",
+    "url": "https://js-snake.vercel.app/",
+    "category": "Arcade",
+    "thumbnail": "https://images.unsplash.com/photo-1493217465235-9430fd36f2b7?w=400&h=250&fit=crop"
+  },
+  {
+    "id": "pacman",
+    "title": "Pac-Man Google Doodle",
+    "description": "The classic Pac-Man game, originally a Google Doodle.",
+    "url": "https://www.google.com/logos/2010/pacman10-i.html",
+    "category": "Arcade",
+    "thumbnail": "https://images.unsplash.com/photo-1579373903781-fd5c0c30c4cd?w=400&h=250&fit=crop"
+  },
+  {
+    "id": "tetris",
+    "title": "Tetris Clone",
+    "description": "Stack the blocks and clear the lines.",
+    "url": "https://chvin.github.io/react-tetris/",
+    "category": "Puzzle",
+    "thumbnail": "https://images.unsplash.com/photo-1550745165-9bc0b252726f?w=400&h=250&fit=crop"
+  },
+  {
+    "id": "hextris",
+    "title": "Hextris",
+    "description": "Fast-paced hexagonal puzzle game.",
+    "url": "https://hextris.io/",
+    "category": "Puzzle",
+    "thumbnail": "https://images.unsplash.com/photo-1614332287897-cdc485fa562d?w=400&h=250&fit=crop"
+  },
+  {
+    "id": "spaceinvaders",
+    "title": "Space Invaders",
+    "description": "Defend the earth from alien invaders.",
+    "url": "https://freeinvaders.org/",
+    "category": "Action",
+    "thumbnail": "https://images.unsplash.com/photo-1550745165-9bc0b252726f?w=400&h=250&fit=crop"
+  }
+]
